@@ -3,7 +3,6 @@ import re as r
 from format_fio import format_fio
 from format_phone import format_phone
 from combining_data import combining_data
-from tabulate import tabulate
 
 def main():
   with open("phonebook_raw.csv", "r", newline="", encoding="utf-8") as file:
